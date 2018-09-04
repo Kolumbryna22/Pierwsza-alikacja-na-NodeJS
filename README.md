@@ -1,6 +1,6 @@
 # Pierwsza-aplikacja-na-NodeJS
 
-### To start program go to app directory and type in console:
+### To start program type in console:
 ```sh
-$ node program.js
+$ node app/program.js
 ```
