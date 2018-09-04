@@ -2,11 +2,9 @@ var os = require('os');
 
 function setTime() {
     var uptime = os.uptime();
-    var hour;
+    var hour = (uptime / 3600).toFixed(0);
     var min;
     var time;
-
-    hour = (uptime / 3600).toFixed(0);
 
     if (hour) {
         time = hour + 'h ';

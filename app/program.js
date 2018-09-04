@@ -6,9 +6,10 @@ process.stdout.write('Write: os - to check operating system \n version - to chec
 
 process.stdin.on('readable', function() {
     var input = process.stdin.read();
+    var instruction;
 
     if (input) {
-        var instruction = input.toString().trim();
+        instruction = input.toString().trim();
 
         switch (instruction) {
             case 'os':
